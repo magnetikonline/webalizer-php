@@ -1,0 +1,6 @@
+RewriteEngine	on
+
+RewriteRule		^(\d{6})$ index.php?m=$1
+RewriteRule		^((ctry|daily|hourly)_usage_\d{6})\.png$ serveimage.php?i=$1
+RewriteRule		^usage\.png$ serveimage.php?i=usage
+RewriteRule		!^(index\.php|serveimage\.php|style\.css|userlogin\.js|jumpsectionbox\.js|open\.gif|flags) index.php

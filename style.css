@@ -1,0 +1,238 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 62.5%;
+}
+
+body,input {
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+
+a {
+	color: #00f;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 0.5em 0;
+}
+
+img {
+	display: block;
+}
+
+img, table {
+	margin: 0 auto 2em auto;
+}
+
+input {
+	font-size: 1em;
+}
+
+th {
+	font-size: 1.2em;
+}
+
+li,p,td {
+	font-size: 1.1em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+/* -- login/logout forms -- */
+#login {
+	background-color: #ccc;
+	border: 1px solid #000;
+	margin: 0 auto;
+	padding: 1em 1em 0 1em;
+	width: 22em;
+}
+
+#login label {
+	clear: left;
+	display: block;
+	float: left;
+	font-weight: bold;
+	width: 6.5em;
+}
+
+#loginusername,
+#loginpassword {
+	width: 11em;
+}
+
+#logout {
+	border-bottom: 2px solid #000;
+	margin-bottom: 0.8em;
+	padding-bottom: 0.5em;
+	text-align: right;
+}
+
+#logout p {
+	margin: 0;
+}
+
+/* -- content wrapper for page, header/footer divisions -- */
+#content {
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #000;
+	margin-bottom: 1em;
+	padding-top: 2em;
+}
+
+/* -- jump to section links -- */
+#jumpsection {
+	background-color: #ccc;
+	border: 1px solid #000;
+	display: block;
+	font-size: 1em;
+	list-style: none;
+	margin: 0;
+	margin-bottom: 2em;
+	padding: 0.8em;
+	text-align: center;
+}
+
+#jumpsection li {
+	display: inline;
+	margin: 0 1em;
+}
+
+#jumpsection li a {
+	color: #000;
+	font-weight: bold;
+}
+
+/* -- jump to section links - javascript mode -- */
+.jsenabled #jumpsection {
+	background: url(open.gif) #ccc no-repeat 50% 50%;
+	filter: alpha(opacity = 80);
+	margin: 0;
+	opacity: 0.8;
+	padding: 0.8em 12px;
+	position: fixed;
+	right: 0;
+	text-align: left;
+	top: 140px;
+	width: 5px;
+}
+
+.jsenabled #jumpsection li {
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 3px 5px;
+	white-space: nowrap;
+}
+
+.jsenabled #jumpsection.open {
+	background-image: none;
+}
+
+/* -- table styling -- */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 512px;
+}
+
+th,td {
+	padding: 0.4em;
+}
+
+table {
+	border-left: 1px solid #555;
+	border-top: 1px solid #555;
+}
+
+th,td {
+	border-bottom: 1px solid #555;
+	border-right: 1px solid #555;
+}
+
+th {
+	background-color: #ccc;
+}
+
+th.totals {
+	text-align: right;
+}
+
+/* -- table header colors -- */
+th.green {
+	background-color: #008040;
+}
+
+th.blue {
+	background-color: #0080ff;
+}
+
+th.lgtblue {
+	background-color: #00e0ff;
+}
+
+th.yellow {
+	background-color: #ff0;
+}
+
+th.orange {
+	background-color: #ff8000;
+}
+
+th.red {
+	background-color: #f00;
+}
+
+/* -- row marker for weekend days under daily statistics -- */
+tr.weekend {
+	background-color: #d0d0e0;
+}
+
+/* -- yearly total header cells on usage index page -- */
+th.yeartotal {
+	text-align: right;
+}
+
+td {
+	text-align: right;
+}
+
+/* -- table column styles -- */
+td.stattype {
+	text-align: left;
+}
+
+td.name {
+	text-align: left;
+	white-space: nowrap;
+}
+
+td.num {
+	font-weight: bold;
+}
+
+td.pos {
+	text-align: center;
+}
+
+td.transfer {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+/* -- flag icons -- */
+td img {
+	display: inline;
+	margin: 0;
+}
